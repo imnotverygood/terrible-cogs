@@ -59,7 +59,7 @@ class Theme(commands.Cog):
             return await user.send(warning(_("Audio cog is not loaded.")))
         themes = ("https://www.youtube.com/watch?v=VBlFHuCzPgY",)
         old_ctx = await self.config.guild(user.guild).voice_channel_ctx()
-        channel_id = int("1015902493848379454") # Why did I think this was a good idea
+        channel_id = int("") # Why did I think this was a good idea
         channel = self.bot.get_channel(channel_id)
         original = await channel.fetch_message(old_ctx)
         ctx = await self.bot.get_context(original)
@@ -75,7 +75,7 @@ class Theme(commands.Cog):
         if not stop:
             return await user.send(warning(_("Audio cog is not loaded.")))
         old_ctx = await self.config.guild(user.guild).voice_channel_ctx()
-        channel_id = int("1015902493848379454")
+        channel_id = int("")
         channel = self.bot.get_channel(channel_id)
         original = await channel.fetch_message(old_ctx)
         ctx = await self.bot.get_context(original)
