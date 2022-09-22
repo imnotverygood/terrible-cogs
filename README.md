@@ -1,1 +1,10 @@
-# terrible-cogs
+# Terrible Cogs
+
+Terrible cogs made badly for  [Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot/tree/V3/develop). To add the cogs to your instance please do: `[p]repo add terrible-cogs https://github.com/imnotverygood/terrible-cogs/`
+
+You can install individual cogs like this:
+`[p]cog install terrible-cogs [cog]`
+## About Cogs
+| Name            | Status/Version   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-----------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| theme        | 0.1.0            | <details><summary>Play theme music in a specific channel.</summary>Ultimate jank, but kind of works. For the time being you have to configure the channel_id and "themes" in theme.py yourself.</details>                                                                                                                                                                                                                                                                                                                                                                                                                                                               |

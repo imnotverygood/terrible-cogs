@@ -1,0 +1,9 @@
+{
+    "author" : ["imnotverygood"],
+    "install_msg" : "sorry in advance",
+    "name" : "terrible-cogs",
+    "short" : "terrible, bad, awful",
+    "description" : "oh no",
+    "min_python_version": [3, 7, 2],
+	"tags": []
+}

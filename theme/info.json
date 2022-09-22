@@ -1,0 +1,16 @@
+{
+    "author": [
+        "imnotverygood (dog #9001)"
+    ],
+    "install_msg": "Usage: `[p]help theme`. Requires the Audio cog to function.",
+    "name": "Theme",
+    "short": "Allows you to set a music theme for a specific channel..",
+    "description": "Ultimate jank, but kind of works. For the time being you have to configure the channel_id and themes in theme.py yourself.",
+    "tags": [
+        "music",
+        "audio",
+        "fun"
+    ],
+    "max_bot_version": "0.1.0",
+    "end_user_data_statement": "This cog stores data provided via command by users for the purposes of replaying."
+}
