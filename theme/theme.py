@@ -81,6 +81,15 @@ class Theme(commands.Cog):
         ctx = await self.bot.get_context(original)
         await ctx.invoke(disconnect)
 
+    @commands.group(invoke_without_command=True, aliases=["themes"])
+    @commands.guild_only()
+    async def theme(self, ctx, *, user: discord.User = None):
+        """
+        Play, view, or configure a user's set theme song(s).
+        """
+        if not ctx.invoked_subcommand:
+            await ctx.invoke(self.theme_play, user=user)
+
     @theme.group(autohelp=True)
     async def voice_channel(self, ctx):
         """Theme Group"""
